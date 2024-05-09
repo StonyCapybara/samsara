@@ -21,22 +21,28 @@ export default function Home() {
           men&apos;s collection
         </button>
       </div>
-      <div className="px-[72px]">
+      <div className="px-2 sm:px-[72px]">
         <h1 className="font-aero text-7xl text-title text-center my-6">
           TRENDING NOW
         </h1>
-        <div className="flex justify-between gap-24">
+        <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-24">
           <Image
             src="/landingpic2.png"
             width={650}
             height={650}
             alt=""
-            className="w-1/2"
+            className="w-1/2 mx-auto"
           />
           <div className="font-abhaya">
-            <Image src="/uniqlo.png" width={189} height={106} alt="uniqlo" />
+            <Image
+              src="/uniqlo.png"
+              width={189}
+              height={106}
+              alt="uniqlo"
+              className="mx-auto md:mx-0"
+            />
             <p className="text-2xl my-8">Linen Blend Short Sleeve Shirt</p>
-            <p className="text-[#000] text-opacity-60 text-xl mb-24">
+            <p className="text-[#000] text-opacity-60 text-xl mb-8 md:mb-24">
               Meet our Collared Linen Shirt, your summer style staple. Crafted
               from breathable linen, it&apos;s your go-to for laid-back
               elegance. Pair with shorts for a relaxed vibe or dress it up with
@@ -54,13 +60,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row-reverse justify-between gap-24 text-right my-16">
+        <div className="flex flex-col md:flex-row-reverse justify-between gap-4 md:gap-24 sm:text-right my-16">
           <Image
             src="/landingpic3.png"
             width={650}
             height={650}
             alt=""
-            className="w-1/2"
+            className="w-1/2 mx-auto"
           />
           <div className="font-abhaya">
             <Image
@@ -68,10 +74,10 @@ export default function Home() {
               width={90}
               height={106}
               alt="hnm"
-              className="ml-auto"
+              className="mx-auto md:ml-auto"
             />
             <p className="text-2xl my-8">Tailored Orange Trousers with Belt </p>
-            <p className="text-[#000] text-opacity-60 text-xl mb-24">
+            <p className="text-[#000] text-opacity-60 text-xl mb-8 md:mb-24">
               Introducing our Tailored Orange Trousers, a vibrant addition to
               your wardrobe. These trousers offer both style and comfort with a
               flattering fit and a pop of colour. Complete with a coordinating
@@ -91,18 +97,24 @@ export default function Home() {
           </div>
         </div>
         <h1 className="font-aero text-7xl text-title my-6">FEATURED</h1>
-        <div className="flex justify-between gap-24 mb-24">
+        <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-24">
           <Image
             src="/landingpic4.png"
             width={650}
             height={650}
             alt=""
-            className="w-1/2"
+            className="w-1/2 mx-auto"
           />
           <div className="font-abhaya">
-            <Image src="/zara.png" width={189} height={106} alt="zara" />
+            <Image
+              src="/zara.png"
+              width={189}
+              height={106}
+              alt="zara"
+              className="mx-auto md:mx-0"
+            />
             <p className="text-2xl my-8 text-title">Rose Printed Sundress</p>
-            <p className="text-[#000] text-opacity-60 text-xl mb-24">
+            <p className="text-[#000] text-opacity-60 text-xl mb-8 md:mb-24">
               Elevate your summer wardrobe with our Rose Printed Sundress.
               Featuring a charming floral pattern and a flattering fit,
               it&apos;s perfect for picnics in the park or brunch with friends.
