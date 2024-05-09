@@ -14,15 +14,15 @@ export default function Home() {
           alt=""
           className="w-full"
         />
-        <button className="border-[#fff] border rounded-lg bg-[#fff] bg-opacity-10 font-abhaya px-12 py-6 absolute right-24 top-[38rem] text-[#F9EBDE] text-center w-[18rem] text-2xl">
+        <button className="border-[#fff] border rounded-lg bg-[#fff] bg-opacity-10 font-abhaya px-6 lg:px-12 py-4 lg:py-6 absolute right-3 lg:right-24 top-[10rem] lg:top-[38rem] text-[#F9EBDE] text-center w-[10rem] lg:w-[18rem] text-xs lg:text-2xl">
           women&apos;s collection
         </button>
-        <button className="border-[#fff] border rounded-lg bg-[#fff] bg-opacity-10 font-abhaya px-12 py-6 absolute right-24 top-[44rem] text-[#F9EBDE] text-center w-[18rem] text-2xl">
+        <button className="border-[#fff] border rounded-lg bg-[#fff] bg-opacity-10 font-abhaya px-6 lg:px-12 py-4 lg:py-6 absolute right-3 lg:right-24 top-[14rem] lg:top-[44rem] text-[#F9EBDE] text-center w-[10rem] lg:w-[18rem] text-xs lg:text-2xl">
           men&apos;s collection
         </button>
       </div>
       <div className="px-2 sm:px-[72px]">
-        <h1 className="font-aero text-7xl text-title text-center my-6">
+        <h1 className="font-aero text-5xl sm:text-7xl text-title text-center my-6">
           TRENDING NOW
         </h1>
         <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-24">
@@ -111,7 +111,7 @@ export default function Home() {
               width={189}
               height={106}
               alt="zara"
-              className="mx-auto md:mx-0"
+              className="mx-auto md:mx-0 w-36 lg:w-48"
             />
             <p className="text-2xl my-8 text-title">Rose Printed Sundress</p>
             <p className="text-[#000] text-opacity-60 text-xl mb-8 md:mb-24">
@@ -121,7 +121,7 @@ export default function Home() {
               Embrace effortless style and feminine flair with this must-have
               piece.
             </p>
-            <div className="flex w-fit ml-auto gap-8">
+            <div className="flex w-fit ml-auto gap-8 mb-12 lg:mb-24">
               <p className="text-title text-xl">Discover more</p>
               <Image
                 src="/rightarrow.svg"

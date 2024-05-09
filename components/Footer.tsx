@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-footer flex flex-col lg:flex-row justify-between lg:items-center">
-      <div className="lg:pl-[70px] py-[88px] w-fit lg:w-[45%] mx-auto lg:mx-0">
-        <span className="font-abhaya text-footerText text-opacity-70 text-[18px] sm:text-[24px] mb-10 block">
+      <div className="lg:pl-[70px] py-12 lg:py-[88px] w-fit lg:w-[45%] mx-auto lg:mx-0">
+        <span className="font-abhaya text-footerText text-opacity-70 text-[24px] sm:text-[30px] mb-10 block">
           May we help you?
         </span>
         <div className="flex justify-between gap-4">
@@ -41,9 +41,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-2 border-[#fff] h-[550px]"></div>
-      <div className="w-[45%] px-[70px] flex flex-col justify-between h-[636px] py-[88px]">
-        <p className="text-footerText font-abhaya text-[18px] sm:text-[24px]">
+      <div className="border-2 border-[#fff] mx-auto lg:mx-0 w-[85%] lg:w-0 h-1 lg:h-[550px]"></div>
+      <div className="lg:w-[45%] px-[70px] flex flex-col gap-8 lg:gap-0 justify-between lg:h-[636px] py-12 lg:py-[88px]">
+        <p className="text-footerText font-abhaya text-[24px] sm:text-[24px]">
           Subscribe
         </p>
         <p className="text-footerText font-abhaya text-[18px] sm:text-[24px] text-opacity-60 w-full border-b-2 border-[#fff]">
@@ -54,7 +54,7 @@ export default function Footer() {
           alt=""
           height={219}
           width={219}
-          className="mx-auto"
+          className="mx-auto w-24 lg:w-auto"
         />
       </div>
     </footer>
