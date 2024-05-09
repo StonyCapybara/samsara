@@ -10,6 +10,8 @@ const config: Config = {
     colors: {
       background: "#FEF6ED",
       title: "#481C00",
+      footer: "#71564B",
+      footerText: "#F9EBDE",
     },
     extend: {
       backgroundImage: {

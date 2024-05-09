@@ -14,6 +14,10 @@
   src: url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&display=swap");
 }
 
+body {
+  background-color: #fef6ed;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
