@@ -38,9 +38,9 @@ export default function Home() {
             <p className="text-2xl my-8">Linen Blend Short Sleeve Shirt</p>
             <p className="text-[#000] text-opacity-60 text-xl mb-24">
               Meet our Collared Linen Shirt, your summer style staple. Crafted
-              from breathable linen, it's your go-to for laid-back elegance.
-              Pair with shorts for a relaxed vibe or dress it up with chinos for
-              effortless charm.
+              from breathable linen, it&apos;s your go-to for laid-back
+              elegance. Pair with shorts for a relaxed vibe or dress it up with
+              chinos for effortless charm.
             </p>
             <div className="flex w-fit ml-auto gap-8">
               <p className="text-title text-xl">Discover more</p>
@@ -75,8 +75,8 @@ export default function Home() {
               Introducing our Tailored Orange Trousers, a vibrant addition to
               your wardrobe. These trousers offer both style and comfort with a
               flattering fit and a pop of colour. Complete with a coordinating
-              belt, they're sure to make a statement wherever you go. Elevate
-              your look and stand out from the crowd.
+              belt, they&apos;re sure to make a statement wherever you go.
+              Elevate your look and stand out from the crowd.
             </p>
             <div className="flex w-fit ml-auto gap-8">
               <p className="text-title text-xl">Discover more</p>
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
         </div>
         <h1 className="font-aero text-7xl text-title my-6">FEATURED</h1>
-        <div className="flex justify-between gap-24">
+        <div className="flex justify-between gap-24 mb-24">
           <Image
             src="/landingpic4.png"
             width={650}
@@ -104,9 +104,10 @@ export default function Home() {
             <p className="text-2xl my-8 text-title">Rose Printed Sundress</p>
             <p className="text-[#000] text-opacity-60 text-xl mb-24">
               Elevate your summer wardrobe with our Rose Printed Sundress.
-              Featuring a charming floral pattern and a flattering fit, it's
-              perfect for picnics in the park or brunch with friends. Embrace
-              effortless style and feminine flair with this must-have piece.
+              Featuring a charming floral pattern and a flattering fit,
+              it&apos;s perfect for picnics in the park or brunch with friends.
+              Embrace effortless style and feminine flair with this must-have
+              piece.
             </p>
             <div className="flex w-fit ml-auto gap-8">
               <p className="text-title text-xl">Discover more</p>
