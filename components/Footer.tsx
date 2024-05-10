@@ -54,7 +54,7 @@ export default function Footer() {
           alt=""
           height={219}
           width={219}
-          className="mx-auto w-24 lg:w-auto"
+          className="mx-auto w-24 lg:w-48"
         />
       </div>
     </footer>

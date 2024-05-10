@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,12 +15,16 @@ export default function Home() {
           alt=""
           className="w-full"
         />
-        <button className="border-[#fff] border rounded-lg bg-[#fff] bg-opacity-10 font-abhaya px-6 lg:px-12 py-4 lg:py-6 absolute right-3 lg:right-24 top-[10rem] lg:top-[38rem] text-[#F9EBDE] text-center w-[10rem] lg:w-[18rem] text-xs lg:text-2xl">
-          women&apos;s collection
-        </button>
-        <button className="border-[#fff] border rounded-lg bg-[#fff] bg-opacity-10 font-abhaya px-6 lg:px-12 py-4 lg:py-6 absolute right-3 lg:right-24 top-[14rem] lg:top-[44rem] text-[#F9EBDE] text-center w-[10rem] lg:w-[18rem] text-xs lg:text-2xl">
-          men&apos;s collection
-        </button>
+        <Link href={"/women"}>
+          <button className="border-[#fff] border rounded-lg bg-[#fff] bg-opacity-10 hover:bg-opacity-25 transition font-abhaya px-6 lg:px-12 py-4 lg:py-6 absolute right-3 sm:right-10 md:right-16 lg:right-24 top-[10rem] sm:top-[20rem] md:top-[26rem] lg:top-[38rem] text-[#F9EBDE] text-center w-[10rem] md:w-[14rem] lg:w-[18rem] text-xs md:text-lg lg:text-2xl">
+            women&apos;s collection
+          </button>
+        </Link>
+        <Link href={"/men"}>
+          <button className="border-[#fff] border rounded-lg bg-[#fff] bg-opacity-10 hover:bg-opacity-25 transition font-abhaya px-6 lg:px-12 py-4 lg:py-6 absolute right-3 sm:right-10 md:right-16 lg:right-24 top-[14rem] sm:top-[24rem] md:top-[30.5rem] lg:top-[44rem] text-[#F9EBDE] text-center w-[10rem] md:w-[14rem] lg:w-[18rem] text-xs md:text-lg lg:text-2xl">
+            men&apos;s collection
+          </button>
+        </Link>
       </div>
       <div className="px-2 sm:px-[72px]">
         <h1 className="font-aero text-5xl sm:text-7xl text-title text-center my-6">
@@ -97,7 +102,7 @@ export default function Home() {
           </div>
         </div>
         <h1 className="font-aero text-7xl text-title my-6">FEATURED</h1>
-        <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-24">
+        <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-24 mb-12">
           <Image
             src="/landingpic4.png"
             width={650}

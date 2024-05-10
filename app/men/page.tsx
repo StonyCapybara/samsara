@@ -1,18 +1,18 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
-export default function Women() {
+export default function Men() {
   return (
     <main>
       <Navbar />
       <div className="">
-        <h1 className="font-aero text-center text-[#fff] text-5xl sm:text-6xl md:text-8xl py-3 sm:py-8 lg:py-11 bg-womens-bg bg-no-repeat background-fit">
-          WOMEN&apos;S
+        <h1 className="font-aero text-center text-[#fff] text-5xl sm:text-6xl md:text-8xl py-3 sm:py-8 lg:py-11 bg-mens-bg bg-no-repeat background-fit">
+          MEN&apos;S
         </h1>
         <div className="flex flex-col md:flex-row gap-9 py-6 sm:py-8 md:py-12 lg:py-16 px-9">
           <div className="relative w-3/5 mx-auto">
             <Image
-              src="/women1.png"
+              src="/men1.png"
               alt=""
               width={100}
               height={100}
@@ -33,7 +33,7 @@ export default function Women() {
           </div>
           <div className="relative w-3/5 mx-auto">
             <Image
-              src="/women2.png"
+              src="/men2.png"
               alt=""
               width={100}
               height={100}
@@ -54,7 +54,7 @@ export default function Women() {
           </div>
           <div className="relative w-3/5 mx-auto">
             <Image
-              src="/women3.png"
+              src="/men3.png"
               alt=""
               width={100}
               height={100}
